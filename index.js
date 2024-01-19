@@ -16,3 +16,8 @@ function genalg() {
 // setInterval(() => {
 //   console.log(genalg())
 // }, 100)
+
+module.exports = {
+  dGA: decimalGenAlgorithm,
+  gen: genalg
+}
